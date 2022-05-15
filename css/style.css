@@ -32,6 +32,7 @@ body{
 }
 #sidemenu a{
     color:rgb(11, 0, 31);
+    text-decoration: none;
 }
 /* HEADER*/
 #sidemenu #header{
@@ -63,6 +64,27 @@ background-color: var(--hovercolor);
     height: 2px;
     margin: 5px 0;
 }
+/*PROFILE*/
+#sidemenu #profile{
+    border-bottom: solid 1px var(--hovercolor);
+    padding: var(--padding) 0;
+    text-align: center;
+}
+#sidemenu #profile #photo{
+    box-sizing: border-box;
+    padding: var(--padding);
+    margin: 0 auto;
+}
+#sidemenu #profile #photo img{
+    border-radius: 50%;
+    width: 60%;
+}
+#sidemenu #profile #photo,#sidemenu #profile #name{
+    font-size: 24px;
+    padding: var(--padding) 0;
+    overflow: hidden;
+}
+
 /* ITEM*/
 #sidemenu #menu-items{
     overflow: hidden;
