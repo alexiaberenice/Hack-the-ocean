@@ -1,9 +1,3 @@
-**Contenido**
-
-[TOCM]
-
-[TOC]
-
 # Deep Blue
 ## Introducción
 *DeepBlue: save the ocean* es un proyecto realizado para el hackathon "Hack the ocean" en LaunchX de InnovaccionVirtual.
@@ -16,7 +10,7 @@ Dentro de esta aplicación se podrá:
 - Seleccionar un oceano en especifico para visualizar la información de los sensores a través de gráficas, o si se desea, un resumen de los 5 oceanos y los principales contaminantes. 
 - De igual manera, dentro de la página encontraremos informacion sobre las acciones que podemos realizar para reducir el daño ambiental en los océanos.
 
-##Tecnologías usadas
+## Tecnologías usadas
 ![](https://alexiaberenice.github.io/tecnologias.png)
 
 ### Imagenes
@@ -33,23 +27,11 @@ Dentro de esta aplicación se podrá:
 
 > Principales contaminantes
 
-![](https://alexiaberenice.github.io/Imagenes/Acerca de.png)
+![](https://alexiaberenice.github.io/Imagenes/Acercade.png)
 
 > Acerca de
                 
 ----
-###Diagramas
-
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 
 ![](https://alexiaberenice.github.io/Logo.png)
 ###End
