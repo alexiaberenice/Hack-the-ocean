@@ -1,0 +1,128 @@
+:root{
+    --width: 300px;
+    --padding: 10px;
+    --bgcolor: rgb(52,52,52);
+    --hovercolor: #022b61;
+    --width-collapsed: 50px;
+}
+body{
+    background-color: rgba(8, 1, 1, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-right: var(--width-collapsed);
+}
+.body-expanded{
+    margin-right: var(--width);
+}
+#main-container{
+    color:rgb(158, 14, 14);
+}
+.item{
+    float: right;   
+}
+#sidemenu{
+    background-color: rgb(255, 238, 238);;
+    color:rgb(0, 0, 0);
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+#sidemenu a{
+    color:rgb(11, 0, 31);
+}
+/* HEADER*/
+#sidemenu #header{
+    box-sizing: border-box;
+    border-bottom: solid 1px var(--hovercolor);
+}
+#sidemenu #header #title{
+    box-sizing: border-box;
+    border-bottom: hidden;
+}
+#sidemenu #header #title, #sidemenu #header #menu-btn{
+vertical-align: middle;
+}
+#sidemenu #header #menu-btn{
+    display: inline-block;
+}
+#sidemenu #header #menu-btn{
+    cursor: pointer;
+    padding: 10px;
+    width: var(--width-collapsed);
+    box-sizing: border-box;
+}
+#sidemenu #header #menu-btn:hover{
+background-color: var(--hovercolor);
+}
+#sidemenu #header #menu-btn .seccion{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+}
+/* ITEM*/
+#sidemenu #menu-items{
+    overflow: hidden;
+}
+#sidemenu #menu-items .item{
+    width: var(--width);
+}
+#sidemenu #menu-items .item .icon{
+    display: inline-block;
+}
+#sidemenu #menu-items .item .icon,
+#sidemenu #menu-items .item .icon{
+    font-size: 14px;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+}
+#sidemenu #menu-items .item a{
+    display: block;
+}
+#sidemenu #menu-items .item a:hover{
+    background-color: var(--hovercolor);
+}
+#sidemenu #menu-items .item .icon{
+    box-sizing: border-box;
+    padding: var(--padding);
+    width: var(--width-collapsed);
+}
+#sidemenu #menu-items .item .icon img{
+    width: 100%;
+}
+#sidemenu #menu-items .item .title{
+    padding: var(--padding) 0;
+}
+
+.menu-expanded{
+    width: var(--width);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.menu-expanded #header #title{
+    display: inline-block;
+    width: calc(100% - 50px);
+    margin-left: -5px;
+    padding: var(--padding);
+}
+.menu-expanded #header #title span{
+    width: calc(var(--width)- var(--width-collapsed)-5px);
+    overflow: hidden;
+}
+.menu-collapsed{
+    width: var(--width-collapsed);
+}
+.menu-collapsed #header #title{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.menu-collapsed .item{
+    width: 100px;
+}
+
+

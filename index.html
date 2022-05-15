@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>DeepBlue</title>
+</head>
+<body>
+<div id="sidemenu" class="menu-collapse">
+            <!--HEADER-->
+            <div id="header">
+                <div id="menu-btn">
+                    <div class="seccion" ></div>
+                    <div class="seccion" ></div>
+                    <div class="seccion" ></div>
+                </div>
+            </div>
+    <!--ITEMS-->
+    <div id="menu-items">
+        <div class="item">
+            <a href="#">
+                <div class="title"><span>Sección 1</span></div>
+                <div class="title"><span>Sección 2</span></div>
+                <div class="title"><span>Sección 3</span></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="main-container">
+
+</div>
+<script>
+    const btn= document.querySelector('#menu-btn');
+    const menu= document.querySelector('#sidemenu');
+    btn.addEventListener('click',e =>{
+        menu.classList.toggle("menu-expanded");
+        menu.classList.toggle("menu-collapsed");
+
+        document.querySelector('body').classList.toggle('body-expanded');
+    });
+</script> 
+</body>
+</html>
