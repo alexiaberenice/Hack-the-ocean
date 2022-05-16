@@ -1,0 +1,29 @@
+.logoInov{
+    top: 9rem;
+    position: relative;
+    background-image: url(../assets/img/innovacion-virtual.png);
+    height: 218px;
+    width: 175px;
+    left: 1rem;
+}
+.sb-topnav {
+
+    height: 100px;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+     top: 100px;
+}
+.btn-icon {
+    font-size: 2.875rem;
+}
+.nav-link {
+    color: #fff;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(4 7 39) !important;
+}
+.sb-sidenav-dark {
+    background-color: rgb(4 7 39);
+}
