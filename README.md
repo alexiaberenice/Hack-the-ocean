@@ -31,7 +31,16 @@ Dentro de esta aplicación se podrá:
 
 > Acerca de
                 
-----
+## Readme 
+   ### Elaborado por Alexia Berenice Legorreta
+## Imagenes y colaboracion por:
+   ### Juan Antonio Hernandez
+   ### Diego Moreno
+   ### Israel Orozco Guerrero
+   ### Alexia Berenice Legorreta
 
 ![](https://alexiaberenice.github.io/Logo.png)
-###End
+
+
+
+
